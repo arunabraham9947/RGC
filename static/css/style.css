@@ -627,6 +627,7 @@ img {
   .header-nav a.btn {
     color: #fff;
   }
+  
   /**/
 }
 
@@ -741,6 +742,9 @@ img {
 }
 
 @media (min-width: 992px){
+  .feature-box-01{
+    height: 450px;
+  }
   .m-dropdown > a::after {
     display: inline-block;
     width: 0px;
@@ -851,6 +855,9 @@ img {
 } /*@media*/
 
 @media (max-width: 991px){
+  .feature-box-01{
+    height: 435px;
+  }
   .m-dropdown .m-dropdown-toggle {
     display: inline-block;
     position: absolute;
@@ -1253,6 +1260,9 @@ img {
 }
 
 @media(max-width: 767px){
+  .feature-box-01{
+    height: 345px;
+  }
   .home-banner h2 {
     font-size: 30px;
     margin: 0 0 20px;
